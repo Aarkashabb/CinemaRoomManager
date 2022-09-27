@@ -1,0 +1,29 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: hello<br> false <br> 10
+- text: 10<br> false<br> hello
+- text: 10 <br> hello <br> fun
+- text: fun <br> 10<br> true
+- text: hello<br> true<br> 10
+- text: true<br> 10 <br> hello
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/11230#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Sat, 17 Sep 2022 17:12:48 UTC
+record: -1
+selected_options:
+- 0
+- 4
+local_check: false

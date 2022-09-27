@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Errors are the same thing as exceptions
+- text: Errors indicate serious problems, and a reasonable application should not
+    try to process them
+- text: We can process Exceptions when developing an application
+- text: Exception is a subtype of Error
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/13266#comment
+status: Solved
+record: -1
+local_check: false

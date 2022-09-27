@@ -1,0 +1,16 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: "// you do not need to understand how it works, ignore it\nclass Pirate (name\
+    \ : String) {\n    var name: String = name\n        private set    \n}\n// Do\
+    \ not touch the lines above\n\nfun main() {\n    // fix the declaration below\n\
+    \    val captain = Pirate(\"Hector Barbossa\")\n    println(captain.name)\n  \
+    \  // put your code here\n\n\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/11244#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Wed, 31 Aug 2022 13:51:16 UTC
+record: -1

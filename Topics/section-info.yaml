@@ -1,0 +1,32 @@
+content:
+- Overview of the basic program
+- Values and variables
+- Standard output
+- The classification of basic types
+- Invoking functions
+- Type conversion
+- Reading data with a readln
+- String basics
+- String templates
+- Boolean and logical operations
+- Integers in action
+- Relational operators
+- If expression
+- Repeating blocks
+- While loops
+- Equality
+- Characters
+- Ranges
+- For loop and ranges
+- Introduction to MutableList
+- Work with MutableLists
+- For loop and lists
+- Multi-dimensional list
+- Declaring functions
+- When expression
+- Errors in programs
+- Hierarchy of exceptions
+- Taming exceptions
+- The try-catch statement
+- The try-catch-finally statement
+- Floating-point types

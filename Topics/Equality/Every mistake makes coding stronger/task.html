@@ -1,0 +1,19 @@
+<h2>Every mistake makes coding stronger</h2>
+<html><body><p>Imagine that your friend who is studying variables in Kotlin wrote the following program:</p>
+<pre><code class="language-kotlin">fun main() {
+    var sum = 0                                                // 1
+    val countOdd = 0                                           // 2
+    var countEven = 0                                          // 3
+    val intsList = listOf&lt;Int&gt;(25, 14, 32, 13, 11, 55, 32, 21) // 4
+
+    for (i in intsList) { // 5
+        if (i % 2 == 0) { // 6
+            sum += i      // 7
+            countEven--   // 8
+        } else {          // 9
+            countOdd++    // 10
+        }
+    }
+    println(countOdd)     // 11
+}</code></pre>
+<p>He had to count the number of odd <code class="language-kotlin">Int</code>'s, the number of even <code class="language-kotlin">Int</code>'s, and the sum of even <code class="language-kotlin">Int</code>'s and after that print the sum, but he made some mistakes. Choose the lines that need fixing.</p></body></html>

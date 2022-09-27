@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Compile-time errors may occur when a program is already started.
+- text: Debugging can help to find compile-time errors.
+- text: Typo in a function name is a run-time error.
+- text: If your program compiles successfully, there are no guarantees that it does
+    not have run-time errors.
+files:
+- name: src/Main.kt
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    fun main(args: Array<String>) {
+      // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/11560#comment
+status: Unchecked
+record: -1
+local_check: false
